@@ -42,38 +42,3 @@ class Util {
 }
 
 module.exports = Util;
-/* 
-const errors = [];
-
-const validateRepo = repo => {
-  if (!repo) {
-    errors.push('Repository is required.');
-  } else if (repo.indexOf('/') === -1) {
-    errors.push('Repository is malformed.');
-  }
-};
-
-const validateIssue = issue => {
-  if (!issue) {
-    errors.push('Issue number is required.');
-  }
-};
-
-const validateBody = body => {
-  if (!body) {
-    errors.push('Comment is required.');
-  }
-};
-
-const validateEntries = (token, repo, issue, body) => {
-  validateToken(token);
-  validateRepo(repo);
-  validateIssue(issue);
-  validateBody(body);
-
-  return errors;
-};
-
-module.exports = {
-  validateEntries
-}; */
